@@ -3,476 +3,180 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#163b4d">
+<meta name="facebook-domain-verification" content="8v333ecjhlqzab9a3hf2ybv5k4hdqg">
 
-<title>مؤسسة سوقك الرقمي | شركة سوقك للخدمات الرقمية</title>
-
-<meta name="description" content="مؤسسة سوقك الرقمي لخدمات التسويق الإلكتروني والترويج الرقمي والإعلانات وإدارة الحملات التسويقية وحلول الأعمال عبر الإنترنت.">
-
-<meta name="keywords" content="مؤسسة سوقك الرقمي, سوقك, شركة سوقك, منصة سوقك الرقمية, سوقك للتسويق الإلكتروني, سوقك للترويج, سوقك للإعلانات, سوقك للخدمات الرقمية">
-
-<meta name="facebook-domain-verification" content="8v333ecjhlqzab9a3hf2ybv5k4hdqg" />
+<title>شركة سوقك | الخدمات والحلول الرقمية</title>
+<meta name="description" content="شركة سوقك للخدمات الرقمية والتجارة الإلكترونية والتسويق والإعلانات وحلول الأعمال.">
 
 <style>
-:root {
-    --primary: #163b4d;
-    --secondary: #24778b;
-    --accent: #d7ad6b;
-    --background: #f5f7f8;
-    --text: #42515c;
-    --border: #e4e9ec;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0;
-    background: #fff;
-    color: var(--text);
-    font-family: Tahoma, Arial, sans-serif;
-    line-height: 1.9;
-}
-
-.container {
-    width: min(1160px, 92%);
-    margin: auto;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.topbar {
-    background: var(--primary);
-    color: #dce9ee;
-    font-size: 12px;
-    padding: 9px 0;
-}
-
-.topbar .container {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-header {
-    background: white;
-    border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 0;
-    gap: 25px;
-}
-
-.logo {
-    font-size: 28px;
-    font-weight: bold;
-    color: var(--primary);
-    line-height: 1.3;
-}
-
-.logo span {
-    display: block;
-    font-size: 11px;
-    color: #81909b;
-    font-weight: normal;
-    letter-spacing: 1px;
-}
-
-nav {
-    display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
-}
-
-nav a {
-    font-size: 14px;
-    color: var(--primary);
-}
-
-nav a:hover {
-    color: var(--secondary);
-}
-
-.hero {
-    background:
-        linear-gradient(110deg, rgba(22,59,77,.97), rgba(36,119,139,.88)),
-        linear-gradient(45deg, #163b4d, #24778b);
-    color: white;
-    padding: 115px 0;
-}
-
-.hero-content {
-    max-width: 800px;
-}
-
-.hero-label {
-    color: #f0d2a2;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.hero h1 {
-    font-size: clamp(32px, 5vw, 55px);
-    line-height: 1.5;
-    margin: 15px 0 22px;
-}
-
-.hero p {
-    font-size: 17px;
-    color: #e0edf0;
-    max-width: 720px;
-}
-
-.hero-actions {
-    display: flex;
-    gap: 15px;
-    margin-top: 30px;
-    flex-wrap: wrap;
-}
-
-.btn {
-    display: inline-block;
-    background: var(--accent);
-    color: var(--primary);
-    padding: 12px 28px;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.btn-outline {
-    background: transparent;
-    border: 1px solid white;
-    color: white;
-}
-
-section {
-    padding: 85px 0;
-}
-
-.section-heading {
-    margin-bottom: 45px;
-}
-
-.section-heading.center {
-    text-align: center;
-}
-
-.section-heading span {
-    color: var(--secondary);
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.section-heading h2 {
-    color: var(--primary);
-    font-size: 32px;
-    margin: 8px 0 10px;
-}
-
-.section-heading p {
-    color: #7a8993;
-    margin: 0;
-}
-
-.about-grid {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
-    gap: 55px;
-    align-items: center;
-}
-
-.about-text p {
-    margin-bottom: 18px;
-}
-
-.about-panel {
-    background: var(--background);
-    padding: 35px;
-    border-radius: 8px;
-    border-top: 4px solid var(--accent);
-}
-
-.about-panel h3 {
-    color: var(--primary);
-    margin-bottom: 8px;
-}
-
-.about-panel p {
-    margin-top: 0;
-}
-
-.services {
-    background: var(--background);
-}
-
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 23px;
-}
-
-.service {
-    background: white;
-    border: 1px solid var(--border);
-    padding: 32px 28px;
-    border-radius: 8px;
-    transition: .2s;
-}
-
-.service:hover {
-    transform: translateY(-4px);
-    border-color: var(--secondary);
-}
-
-.service-number {
-    color: var(--secondary);
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.service h3 {
-    color: var(--primary);
-    font-size: 19px;
-    margin: 13px 0;
-}
-
-.service p {
-    font-size: 14px;
-    margin: 0;
-}
-
-.activities-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-}
-
-.activity {
-    padding: 22px 16px;
-    text-align: center;
-    border: 1px solid var(--border);
-    background: #f8fafb;
-    border-radius: 7px;
-    color: var(--primary);
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.activity.main {
-    background: var(--primary);
-    color: white;
-    font-size: 21px;
-}
-
-.advantages {
-    background: var(--background);
-}
-
-.advantages-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-.advantage {
-    background: white;
-    padding: 30px;
-    border-right: 3px solid var(--accent);
-}
-
-.advantage h3 {
-    color: var(--primary);
-    margin-top: 0;
-}
-
-.advantage p {
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.company-data {
-    background: white;
-}
-
-.data-wrapper {
-    border: 1px solid var(--border);
-    border-radius: 9px;
-    overflow: hidden;
-}
-
-.data-header {
-    background: var(--primary);
-    color: white;
-    padding: 20px 25px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.data-item {
-    padding: 20px 25px;
-    border-bottom: 1px solid var(--border);
-}
-
-.data-item:nth-child(odd) {
-    border-left: 1px solid var(--border);
-}
-
-.data-label {
-    font-size: 12px;
-    color: #84939c;
-}
-
-.data-value {
-    font-size: 15px;
-    color: var(--primary);
-    font-weight: bold;
-    margin-top: 5px;
-    overflow-wrap: anywhere;
-}
-
-.data-value a {
-    color: var(--secondary);
-}
-
-.license {
-    background: var(--background);
-}
-
-.license-box {
-    background: white;
-    border: 1px solid var(--border);
-    padding: 35px;
-    border-radius: 9px;
-}
-
-.license-box h3 {
-    color: var(--primary);
-    margin-top: 0;
-}
-
-.license-details {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 25px;
-}
-
-.license-item {
-    background: var(--background);
-    padding: 18px;
-    border-radius: 6px;
-}
-
-.license-item small {
-    display: block;
-    color: #81909b;
-}
-
-.license-item strong {
-    color: var(--primary);
-}
-
-.cta {
-    background: var(--primary);
-    color: white;
-    text-align: center;
-}
-
-.cta h2 {
-    font-size: 34px;
-    margin: 0 0 15px;
-}
-
-.cta p {
-    color: #d4e3e8;
-    max-width: 700px;
-    margin: 0 auto 25px;
-}
-
-.contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-}
-
-.contact-card {
-    background: var(--background);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 30px;
-}
-
-.contact-card h3 {
-    color: var(--primary);
-}
-
-.contact-card a {
-    color: var(--secondary);
-    overflow-wrap: anywhere;
-}
-
-footer {
-    background: #102b39;
-    color: white;
-    padding: 60px 0 20px;
-}
-
-.footer-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 40px;
-}
-
-.footer-brand {
-    font-size: 28px;
-    font-weight: bold;
-}
-
-footer p {
-    color: #b8c9d1;
-    font-size: 13px;
-}
-
-footer h3 {
-    font-size: 16px;
-}
-
-footer a {
-    display: block;
-    color: #cbd7dc;
-    font-size: 13px;
-    margin: 8px 0;
-}
-
-.copyright {
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #34515e;
-    text-align: center;
-    font-size: 12px;
-    color: #b5c5cc;
-}
-
-@media(max
+*{box-sizing:border-box}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;color:#263746;line-height:1.9}
+html{scroll-behavior:smooth}
+header{background:#fff;border-bottom:1px solid #ddd;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
+.logo{font-size:29px;font-weight:bold;color:#126c78}
+nav a{margin:0 12px;text-decoration:none;color:#263746;font-size:14px}
+.hero{background:#123c4d;color:white;padding:100px 7%}
+.hero h1{font-size:44px;max-width:800px;line-height:1.5}
+.hero p{max-width:700px;color:#d8e6ea}
+.btn{display:inline-block;background:#e2bd78;color:#123c4d;padding:11px 27px;text-decoration:none;border-radius:5px;font-weight:bold}
+section{padding:65px 7%}
+h2{color:#123c4d;font-size:29px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:white;border:1px solid #e2e7ea;padding:25px;border-radius:9px}
+.card h3{color:#126c78}
+.gray{background:#f5f7f8}
+.about{max-width:850px}
+.names{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.name{padding:17px;text-align:center;background:white;border:1px solid #ddd;border-radius:6px;font-weight:bold}
+.contact{background:#123c4d;color:white}
+.contact h2{color:white}
+.contact a{color:#e2bd78}
+footer{background:#0d2936;color:#cbd8dd;padding:25px;text-align:center}
+@media(max-width:700px){
+header{justify-content:center;text-align:center}
+nav{display:flex;flex-wrap:wrap;justify-content:center}
+.hero{padding:65px 7%}
+.hero h1{font-size:30px}
+.grid,.names{grid-template-columns:1fr}
+section{padding:45px 6%}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">سوقك | SOUGK</div>
+<nav>
+<a href="#home">الرئيسية</a>
+<a href="#about">من نحن</a>
+<a href="#services">خدماتنا</a>
+<a href="#activities">أنشطتنا</a>
+<a href="#contact">اتصل بنا</a>
+</nav>
+</header>
+
+<main>
+
+<div class="hero" id="home">
+<h1>شركة سوقك للخدمات والحلول الرقمية</h1>
+<p>
+نعمل في سوقك على تقديم حلول عملية تساعد
+الأفراد وأصحاب المشاريع على تطوير أعمالهم
+وتوسيع حضورهم في السوق الرقمي.
+</p>
+<a href="#services" class="btn">تعرف على خدماتنا</a>
+</div>
+
+<section id="about">
+<div class="about">
+<h2>من نحن | شركة سوقك</h2>
+<p>
+سوقك منصة أعمال رقمية تهدف إلى تسهيل
+التجارة الإلكترونية والإعلانات والتواصل
+بين أصحاب المنتجات والخدمات والعملاء.
+</p>
+<p>
+نسعى إلى توفير بيئة رقمية سهلة الاستخدام،
+تدعم المشاريع والأنشطة التجارية وتساعدها
+على الوصول إلى جمهور أوسع.
+</p>
+</div>
+</section>
+
+<section class="gray" id="services">
+<h2>خدمات شركة سوقك</h2>
+<div class="grid">
+
+<div class="card">
+<h3>التجارة الإلكترونية</h3>
+<p>حلول لعرض المنتجات والخدمات وتنظيم عمليات البيع والشراء.</p>
+</div>
+
+<div class="card">
+<h3>التسويق الرقمي</h3>
+<p>خدمات تسويقية لتعزيز حضور الأنشطة التجارية عبر الإنترنت.</p>
+</div>
+
+<div class="card">
+<h3>الإعلانات الإلكترونية</h3>
+<p>حلول للإعلان عن المنتجات والخدمات والوصول إلى العملاء.</p>
+</div>
+
+<div class="card">
+<h3>خدمات الأعمال</h3>
+<p>أدوات رقمية تساعد أصحاب المشاريع على إدارة أنشطتهم.</p>
+</div>
+
+<div class="card">
+<h3>الترويج الإلكتروني</h3>
+<p>التعريف بالمنتجات والخدمات عبر القنوات الرقمية.</p>
+</div>
+
+<div class="card">
+<h3>المنصات الرقمية</h3>
+<p>تطوير خدمات ومنصات تسهل التواصل والتجارة الإلكترونية.</p>
+</div>
+
+</div>
+</section>
+
+<section id="activities">
+<h2>أنشطة ومجالات عمل سوقك</h2>
+<p>مسميات وصفية للخدمات التي تقدمها منصة سوقك:</p>
+
+<div class="names">
+<div class="name">شركة سوقك</div>
+<div class="name">منصة سوقك الرقمية</div>
+<div class="name">سوقك للتجارة الإلكترونية</div>
+<div class="name">سوقك للبيع والشراء</div>
+<div class="name">سوقك للإعلانات الرقمية</div>
+<div class="name">سوقك للتسويق الإلكتروني</div>
+<div class="name">سوقك للخدمات الرقمية</div>
+<div class="name">سوقك للأعمال</div>
+<div class="name">سوقك للترويج الإلكتروني</div>
+<div class="name">سوقك للخدمات الإلكترونية</div>
+<div class="name">سوقك للسوق الرقمي</div>
+<div class="name">سوقك للتسوق الإلكتروني</div>
+</div>
+</section>
+
+<section class="gray">
+<h2>رؤية سوقك</h2>
+<p>
+أن تكون سوقك منصة رقمية تسهم في تطوير
+التجارة الإلكترونية وتسهيل وصول
+أصحاب المشاريع إلى العملاء.
+</p>
+
+<h2>رسالة سوقك</h2>
+<p>
+تقديم خدمات رقمية سهلة وعملية تدعم
+المشاريع وتساعد على تنمية الأعمال.
+</p>
+</section>
+
+<section class="contact" id="contact">
+<h2>تواصل مع سوقك</h2>
+<p>للتعرف على خدمات سوقك أو تحميل التطبيق:</p>
+<a href="https://play.google.com/store/apps/details?id=com.sougk.sd"
+target="_blank" rel="noopener noreferrer" class="btn">
+تحميل تطبيق سوقك
+</a>
+</section>
+
+</main>
+
+<footer>
+<strong>سوقك | SOUGK</strong>
+<p>الخدمات الرقمية والتجارة الإلكترونية وحلول الأعمال</p>
+<p>© <span id="year"></span> سوقك. جميع الحقوق محفوظة.</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+new Date().getFullYear();
+</script>
+
+</body>
+</html>
